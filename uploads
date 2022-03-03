@@ -1,6 +1,0 @@
-node_module<S3Album
-    level=
-    .env
-
-tmp/uploads/*
-!tmp/uploads/.gitkeepgit status
