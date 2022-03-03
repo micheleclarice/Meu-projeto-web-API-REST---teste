@@ -1,0 +1,8 @@
+APP_URL=
+
+MONGO_
+CONVERTKIT_API_SECRET=06tWdFH76Pc7RZ3MXl-3EQ
+
+STORAGE+TYPE=local
+
+basededados = https://data.mongodb-api.com/app/data-qyzkl/endpoint/data/beta
