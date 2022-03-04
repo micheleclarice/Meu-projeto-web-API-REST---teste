@@ -1,3 +1,5 @@
+##CONFIGURANDO CAMINHOS PARA ENCONTRAR BANCO DE DADOS/URL/SENHA/- AQUI TENTEI NO POSTMAN
+
 const mongoose = require("mongoose");
 const aws = require("aws-sdk");
 const fs = require("fs");
