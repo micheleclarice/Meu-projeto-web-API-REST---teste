@@ -1,3 +1,5 @@
+##CRIANDO ARQUIVO DENTRO DA PASTA MODELS
+
 namespace TodoApi.Models
 {
     public class TodoItem
