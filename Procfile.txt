@@ -1,4 +1,4 @@
-##DIRECIONANDO PARA PARA A PASTA TodoApi
+##DIRECIONANDO PARA A PASTA TodoApi
 
 namespace TodoApi.Models
 {
