@@ -1,3 +1,5 @@
+//CONFIGURANDO NUGET
+
 {
   "format": 1,
   "restore": {
