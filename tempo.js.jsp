@@ -1,3 +1,5 @@
+//CONFIG TEMPO
+
 function tempo(request, response) {
     const dynamicDate = new Date();
 
