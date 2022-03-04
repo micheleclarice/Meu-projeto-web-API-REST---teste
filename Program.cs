@@ -1,3 +1,5 @@
+//CRIANDO APLICAÇÃO COM ASP.NET
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +8,9 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
+
+
+//DIRECIONANDO PARA BD E ID
 
 app.MapGet("/todoitems", async (TodoDb db) =>
     await db.Todos.ToListAsync());
@@ -40,6 +45,8 @@ app.MapPut("/todoitems/{id}", async (int id, Todo inputTodo, TodoDb db) =>
 
     return Results.NoContent();
 });
+
+//CRIANDO ROTAS PARA DELETAR BD
 
 app.MapDelete("/todoitems/{id}", async (int id, TodoDb db) =>
 {
